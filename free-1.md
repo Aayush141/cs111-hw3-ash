@@ -5,7 +5,9 @@
 This section describes who the project would serve and why a language might be a
 good way to meet their needs.
 
-People trying to balance their worklife and personal life - on their phones and laptops.
+People trying to balance their worklife and personal life - on their phones and laptops. Notifications are an important way of keeping track of things, but they are also very destracting and often even anxiety inducing. And the toggles given to manage notifications do not provide personalisation. Being able to program 
+
+You could code in what times and which apps are allowed to send pop ups. You can code in specific users from within an app (say, I want text messages from my boss to come through, but do not want text messages from colleagues or companies.) You could group together apps which can be turned on and off in a single click (For instance, I have Whatsapp, Messenger, Telegram and Signal - which all do the same thing and I hate having to individually turn all of them on or off. And I can't turn ALL my notificitions off because some are important.). There is just a lack of flexibility, and having way too many notificitions and way too less notifications are both problematic. Being able to go in and program your notifications would be a lot of help. Doing so would be wayy too much work via a general purpose PL. 
 
 ### What's the need?
 
@@ -19,7 +21,7 @@ Problem :
 
 _Why is a DSL appropriate for your user(s)? How does it address the need?_
 
-Why not an app: There exist ways to manage notifications on phones and laptops, but 
+Why not an app: There exist ways to manage notifications on phones and laptops, but these have very limited functionality.
 
 Why not a general purpose language: Managing notifications and producing a companion applet would require some communication with the Operating System itself which has a big learning curve and might be hard to pull off. 
 
@@ -50,6 +52,8 @@ user? What kinds of errors might occur, and how might they be communicated to
 the user?_
 
 Makes applets with personalised notification management.
+
+The applet will have toggles that are more personalized. You can have a toggle for "Chris", you can have a toggle for "Instagram+Snapchat+Facebook". 
 
 ### Expressiveness
 
